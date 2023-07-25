@@ -1,0 +1,12 @@
+title: Development Environments
+description: > # this means to ignore newlines until "baseurl:"
+  Apuntes del módulo de Entornos de Desarrollo de los ciclos formativos
+  de grado superior de Desarrollo de Aplicaciones Multiplataforma y
+  Desarrollo de Aplicaciones Web. Elaborados por Nacho Iborra, Mari Chelo Rubio y
+  Javier Carrasco, profesores de ciclos formativos en el I.E.S. San Vicente 
+  (San Vicente del Raspeig, Alicante)
+baseurl: "/entornos" # the subpath of your site, e.g. /blog
+url: "http://nachoiborraIES.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

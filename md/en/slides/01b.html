@@ -1,0 +1,131 @@
+---
+layout: reveal
+title: Programs, languages and compilers
+---
+
+<section data-markdown>
+<script type="text/template">
+## Programs, languages and compilers
+### First steps with Java
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Java
+    
+* Beginning of the 90s
+* Object oriented programming (classes and objects)
+* Multi-platform (JVM)
+* More restricted hardware access
+* *Garbage collector* and other advanced features
+* Usages: mobile, web, desktop...
+
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Installing Java (1/8)
+
+- From Java 7:
+    - Oracle version 
+    - [OpenJDK](https://jdk.java.net/archive/): official reference implementation
+    - Other: AdoptOpenJDK, Excelsior JET... 
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Installing Java (2/8)
+
+1. Unzip the file to any folder (easy to find):
+2. Set up PATH environment variable to point to `bin` subfolder
+3. Set up JAVA_HOME environment variable to point to OpenJDK main folder
+- In Mac there is a *Contents/Home* subfolder inside ZIP file
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Installing Java (3/8)
+<img src="../../../img/ED_b1_tema01-02-variables_entorno.png" width="50%" />
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Installing Java (4/8)
+<img src="../../../img/ED_b1_tema01-02-variables_entorno_2.png" width="50%" />
+</script>
+</section>
+    
+<section data-markdown>
+<script type="text/template">
+## Installing Java (5/8)
+<img src="../../../img/ED_b1_tema01-04-java_home.png" width="50%" />
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Installing Java (6/8)
+
+Linux
+
+```
+echo "export PATH=$PATH:/home/username/openjdk/bin" >> ~/.bashrc
+echo "export JAVA_HOME=/home/username/openjdk" >> ~/.bashrc
+source ~/.bashrc
+``` 
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Installing Java (7/8)
+
+Mac
+
+```
+echo "export PATH=$PATH:/openjdk/Contents/Home/bin" >> ~/.bash_profile
+echo "export JAVA_HOME=/openjdk/Contents/Home" >> ~/.bash_profile
+source ~/.bash_profile
+```
+
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+## Installing Java (8/8)
+
+Checking installation
+
+```
+javac -version
+java -version
+```
+
+Output similar to:
+
+```
+javac version 17.0.2
+```
+</script>
+</section>
+
+<section>
+    <h2>Exercise</h2>
+    <p>Create a source file called <strong>Test.java</strong> in your source folder with this code. Compile it using <strong>javac Test.java</strong> and run it using <strong>java Test</strong>.</p>
+    <pre><code data-trim data-noescape>    
+public class Test
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello");
+    }
+}
+    </code></pre>
+</section>
+
