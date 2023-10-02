@@ -55,14 +55,14 @@ FALSE. If we don't get any information from people working on the company, we ca
             <li>Visitors can comment posts</li>
             <li>User login</li>
             <li>Store every post and comment in the database</li>
-            <li>Make daily backups of the database</li>
-            <li>Passwords must be encrypted</li>
         </ul>
     </td>
     <td>
         <ul>
             <li>High availability</li>
             <li>Ease of use</li>
+            <li>Make daily backups of the database</li>
+            <li>Passwords must be encrypted</li>            
         </ul>
     </td>
 </table>
