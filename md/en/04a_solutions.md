@@ -9,27 +9,27 @@
 
 > *Solution*:
 
-> * Interviews are the most suitable way of getting information for a software project, in general
+> * Interviews are generally the most effective method for gathering information for a software project.
 
 We can say both FALSE (because it depends on the project itself) or TRUE (because it is the most complete way of getting the user needs for some projects).
 
-> * JAD is a quick way of specifying the requirements of an application in projects where several departments of the customer company are involved
+> * JAD is a quick method for specifying requirements in projects involving multiple departments.
 
 As with previous assertion, we can both say TRUE (because it is a suitable method when more than one department from the customer company is involved in the project) and FALSE (because it is not quick, meetings may last some days).
 
-> * Questionnaires are useful when we try to gather information from the customer and the components are far from each other geographically
+> * Questionnaires are useful when gathering information from customers who are geographically distant.
 
 TRUE
 
-> * Only with the observation of the company or the study of its documentation we can get a SRS very accurate.
+> * Observation and documentation alone can produce a highly accurate SRS.
 
 FALSE. If we don't get any information from people working on the company, we can barely get useful and complete requirements.
 
 > **Exercise 2:** 
 > 
-> Read the following text about the development of a software product, and then identify the system, functional and non functional requirements:
+Read the following scenario and identify the system, functional, and non-functional requirements:
 > 
-> *A blog has three types of users: administrators, editors and visitors. Any of them must log in in order to enter the application. Administrators can register other users, editors can publish posts, and visitors can comment them. We expect that this web site has lots of visits per day, so the availability of the service must be high. We must also have several servers in order to balance the load and distribute client accesses. Besides, as we don't have very experienced editors, the user interface for them must be as simple as possible. Every post and comment will be stored in a MySQL database, with daily backups. Passwords will be encrypted in order to prevent possible attacks.*
+> *A blog has three types of users: administrators, editors, and visitors. All users must log in to access the application. Administrators can register other users, editors can publish posts, and visitors can comment on them. The website is expected to handle a large volume of daily traffic, so high availability is crucial. Several servers will be used to balance the load and distribute client access. Since the editors are inexperienced, the user interface must be simple. All posts and comments will be stored in a MySQL database with daily backups, and passwords will be encrypted to prevent security breaches.*
 
 > *Solution*:
 
@@ -69,9 +69,9 @@ FALSE. If we don't get any information from people working on the company, we ca
 
 > **Exercise 3:** 
 > 
-> From the following proposal for a software product, try to identify the system, functional and non functional requirements.
+> For the following software proposal, identify the system, functional, and non-functional requirements:
 > 
-> *A cultural organization is focused on the loan of two type of objects: music discs and books. We need an application aht lets us add new objects to the system from both types. Besides, there are many users that come to this organization. They will need to log in with a user name and password. Then, they may be able to search any disc or book, either by object type (disck/book) and/or by object name (title). Once the object is chosen, they can ask for it if it is not available. Users can have up to 5 objects on loan simultaneously. As this organization is settled in a small town, we don't expect to have many users asking for books or disks at the same time, so we just need a single computer and a small database to store the information. In case a user does not remember his password, the system will send it by email to the same account that he entered when he registered.* 
+> *A cultural organization manages loans of two types of items: music discs and books. The application should allow users to add new items of both types. Users must log in with a username and password, and they can search for items by type (disc/book) or by title. Users can request items that are not currently available, with a limit of 5 items on loan simultaneously. Since the organization is located in a small town, user activity is expected to be low, so only one computer and a small database are needed. If a user forgets their password, the system will email it to the registered email address.*
 
 > *Solution*:
 
@@ -116,22 +116,22 @@ FALSE. If we don't get any information from people working on the company, we ca
 
 FUNCTIONAL
 
-> * The database server must be in a separate computer
+> * The database server must be hosted on a separate computer.
 
 SYSTEM
 
-> * If there is no connection with the remote server, the application must show an error message and then close
+> * If the connection to the remote server is lost, the application should display an error message and close.
 
 FUNCTIONAL
 
-> * The response time must not exceed 10 milliseconds
+> * Response time must not exceed 10 milliseconds.
 
 NON-FUNCTIONAL
 
-> * We must have enough bandwidth to send the video in real time streaming
+> * Sufficient bandwidth is required for real-time video streaming.
 
 SYSTEM (internet connection) and NON-FUNCTIONAL (enough bandwidth)
 
-> * We must verify that the information entered by the user (name, id and phone number) are correct
+> * The system must verify the user's entered name, ID, and phone number.
 
 FUNCTIONAL
